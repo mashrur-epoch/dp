@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>dorchestercprestige</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link href="tools/style.css" rel="stylesheet" type="text/css" />
+<link href="tools/960.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/Clarendon_LT_Std_700.font.js"></script>
+<script type="text/javascript">
+	Cufon.replace('h1,h3', {fontFamily: 'Clarendon LT Std', hover:true})
+</script>
+</head>
+<body>
+<div id="shim"></div>
+<div id="content">
+	<div class="logo_box">
+        <img src="images/dp-logo.png" width="95%" alt=""/>
+        <h1 id="getting-started"> </h1>
+    </div>
+	<div class="main_box">
+		<h2>Our website is coming soon.<br/><span>In the mean time connect with us with the information below</span></h2>
+		
+		<ul class="info">
+			<li>
+				<h3>P</h3>
+				<p>020 7581 3131</p>
+			</li>
+			<li>
+				<h3>A</h3>
+				<p>16 Beauchamp Place, Knightsbridge <br/> SW3 1NQ London</p>
+			</li>
+
+            <li>
+                <h3>M</h3>
+                <p>info@dorchesterprestige.com</p>
+            </li>
+			<li>
+				<h3>S</h3>
+				<p class="social">
+					<a href="https://twitter.com/dorchprestige" class="tw"></a>
+					<a href="https://www.facebook.com/dorchesterprestige" class="fb"></a>
+
+				</p>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+<script type="text/javascript">
+
+    // A $( document ).ready() block.
+    $( document ).ready(function() {
+        $("#getting-started").countdown("2015/11/018", function(event) {
+            $(this).text(
+                    event.strftime('%D Days %H:%M:%S')
+            );
+        });
+    });
+
+</script>
+
+</body>
+</html>
